@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0277BD"
+    tools:context="com.example.no0ne.ears.MainActivity">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:text="WELCOME TO EARS" />
+    
+    <Button
+        android:id="@+id/button_log_in"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true"
+        android:background="#E0E0E0"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="LOG IN"/>
+
+    <Button
+        android:id="@+id/button_sign_in"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button_log_in"
+        android:layout_centerHorizontal="true"
+        android:background="#E0E0E0"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="SIGN IN" />
+
+</RelativeLayout>
