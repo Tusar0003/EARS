@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.no0ne.ears.JobActivity">
+
+    <RelativeLayout
+        android:id="@+id/job_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_view_job_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job Post 1" />
+
+        <TextView
+            android:id="@+id/text_view_designation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_job_post"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Android App Developer" />
+
+        <TextView
+            android:id="@+id/text_view_salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_designation"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:text="Salary: Negotiable" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@+id/text_view_salary"
+            android:textColor="@android:color/black"
+            android:text="Full Time" />
+
+    </RelativeLayout>
+
+</LinearLayout>
