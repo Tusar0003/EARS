@@ -32,14 +32,14 @@
         android:hint="Email" />
 
     <EditText
-        android:id="@+id/edit_text_pass"
+        android:id="@+id/edit_text_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button_create_account"
+        android:id="@+id/button_sign_in"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"

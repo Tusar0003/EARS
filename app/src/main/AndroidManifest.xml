@@ -16,8 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".SignInActivity"></activity>
+        <activity
+            android:name=".LogInActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SignInActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".JobActivity" />
+        <activity android:name=".JobDetailsActivity"></activity>
     </application>
 
 </manifest>
