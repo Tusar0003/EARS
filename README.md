@@ -1,6 +1,6 @@
 # EARS
 
-## Home Screen
+## Welcome Screen
 <img src="images/Home.png" width="300" />
 
 ## Sign In
